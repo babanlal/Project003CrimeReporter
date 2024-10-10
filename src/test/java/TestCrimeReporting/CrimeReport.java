@@ -18,11 +18,12 @@ public class CrimeReport {
 	@BeforeClass
 	void setup() throws InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\New chromedriver\\chromedriver-win64\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "E:\\selenium\\New chromedriver\\chromedriver-win64\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("http://hybrid.srishticampus.in/crime_reporting");
+		Thread.sleep(5000);
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 			
 	}
   @Test(priority=1)

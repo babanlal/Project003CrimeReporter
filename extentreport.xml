@@ -5,8 +5,10 @@
 	<listeners>
 		<listener class-name="TestCrimeReporting.ExtentReportManager"/>
 	</listeners>
+	<test thread-count="5" name="Test">
 	
-  <test thread-count="5" name="Test">
+      <parameter name="os" value="Windows"/>
+ 	  <parameter name="browser" value="chrome"/>
   
     <classes>
       <class name="TestCrimeReporting.CrimeReport"/>
