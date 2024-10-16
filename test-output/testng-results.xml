@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-10T00:11:29 CEST" name="Suite" finished-at="2024-10-10T00:11:43 CEST" duration-ms="14616">
+  <suite started-at="2024-10-16T10:16:17 CEST" name="Suite" finished-at="2024-10-16T10:16:29 CEST" duration-ms="12078">
     <groups>
     </groups>
-    <test started-at="2024-10-10T00:11:29 CEST" name="Test" finished-at="2024-10-10T00:11:43 CEST" duration-ms="14616">
+    <test started-at="2024-10-16T10:16:17 CEST" name="Test" finished-at="2024-10-16T10:16:29 CEST" duration-ms="12078">
       <class name="TestCrimeReporting.CrimeReport">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCrimeReporting.CrimeReport@590c73d3]" started-at="2024-10-10T00:11:29 CEST" name="setup" finished-at="2024-10-10T00:11:39 CEST" duration-ms="10414" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCrimeReporting.CrimeReport@590c73d3]" started-at="2024-10-16T10:16:17 CEST" name="setup" finished-at="2024-10-16T10:16:28 CEST" duration-ms="11158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testlogo()[pri:1, instance:TestCrimeReporting.CrimeReport@590c73d3]" started-at="2024-10-10T00:11:39 CEST" name="testlogo" finished-at="2024-10-10T00:11:43 CEST" duration-ms="3633" status="PASS">
+        <test-method signature="testlogo()[pri:1, instance:TestCrimeReporting.CrimeReport@590c73d3]" started-at="2024-10-16T10:16:28 CEST" name="testlogo" finished-at="2024-10-16T10:16:29 CEST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlogo -->
-        <test-method signature="testUrl()[pri:2, instance:TestCrimeReporting.CrimeReport@590c73d3]" started-at="2024-10-10T00:11:43 CEST" name="testUrl" finished-at="2024-10-10T00:11:43 CEST" duration-ms="69" status="FAIL">
+        <test-method signature="testUrl()[pri:2, instance:TestCrimeReporting.CrimeReport@590c73d3]" started-at="2024-10-16T10:16:29 CEST" name="testUrl" finished-at="2024-10-16T10:16:29 CEST" duration-ms="34" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [http://hybrid.srishticampus.in/crime_reporting] but found [http://hybrid.srishticampus.in/crime_reporting/]]]>
@@ -63,7 +63,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUrl -->
-        <test-method signature="testHomePageTitle()[pri:3, instance:TestCrimeReporting.CrimeReport@590c73d3]" started-at="2024-10-10T00:11:43 CEST" name="testHomePageTitle" finished-at="2024-10-10T00:11:43 CEST" depends-on-methods="TestCrimeReporting.CrimeReport.testUrl" duration-ms="1" status="SKIP">
+        <test-method signature="testHomePageTitle()[pri:3, instance:TestCrimeReporting.CrimeReport@590c73d3]" started-at="2024-10-16T10:16:29 CEST" name="testHomePageTitle" finished-at="2024-10-16T10:16:29 CEST" depends-on-methods="TestCrimeReporting.CrimeReport.testUrl" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method TestCrimeReporting.CrimeReport.testHomePageTitle() on instance TestCrimeReporting.CrimeReport@590c73d3 depends on not successfully finished methods 
@@ -97,7 +97,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCrimeReporting.CrimeReport@590c73d3]" started-at="2024-10-10T00:11:43 CEST" name="tearDown" finished-at="2024-10-10T00:11:43 CEST" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCrimeReporting.CrimeReport@590c73d3]" started-at="2024-10-16T10:16:29 CEST" name="tearDown" finished-at="2024-10-16T10:16:29 CEST" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
